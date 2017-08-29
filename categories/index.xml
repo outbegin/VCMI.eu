@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on VCMI Project</title>
-    <link>https://new-website-preview.vcmi.eu/categories/</link>
+    <link>http://vcmi.eu/categories/</link>
     <description>Recent content in Categories on VCMI Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://new-website-preview.vcmi.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://vcmi.eu/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Releases</title>
-      <link>https://new-website-preview.vcmi.eu/categories/releases/</link>
+      <link>http://vcmi.eu/categories/releases/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://new-website-preview.vcmi.eu/categories/releases/</guid>
+      <guid>http://vcmi.eu/categories/releases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stable</title>
-      <link>https://new-website-preview.vcmi.eu/categories/stable/</link>
+      <link>http://vcmi.eu/categories/stable/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://new-website-preview.vcmi.eu/categories/stable/</guid>
+      <guid>http://vcmi.eu/categories/stable/</guid>
       <description></description>
     </item>
     
