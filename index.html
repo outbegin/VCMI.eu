@@ -4,6 +4,8 @@
     <head>
         
             
+            
+            
                 <title>VCMI Project</title>
             
         
@@ -35,7 +37,7 @@
 
 
 
-<meta property="og:updated_time" content="2016-11-01T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-09-03T00:00:00&#43;00:00"/>
 
 
 
@@ -241,11 +243,11 @@
 
                 
                     <li>
-                        <a href="https://vcmi.eu/news/vcmi-0.99-release/"><p>VCMI 0.99 released</p></a>
+                        <a href="https://vcmi.eu/news/news-from-september-2017/"><p>News from September 2017</p></a>
                     </li>
                 
                     <li>
-                        <a href="https://vcmi.eu/news/vcmi-0.98-release/"><p>VCMI 0.98 released</p></a>
+                        <a href="https://vcmi.eu/news/vcmi-0.99-release/"><p>VCMI 0.99 released</p></a>
                     </li>
                 
             </ul>
@@ -266,7 +268,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="https://vcmi.eu/news/vcmi-0.99-release/">VCMI 0.99 released</a></h2>
+            <h2><a href="https://vcmi.eu/news/news-from-september-2017/">News from September 2017</a></h2>
         
         
     </div>
@@ -276,12 +278,12 @@
         
 
         <time class="published"
-            datetime='2016-11-01'>
-            November 1, 2016</time>
+            datetime='2017-09-03'>
+            September 3, 2017</time>
         <span class="author"></span>
         
         
-            <p><b><a href="https://forum.vcmi.eu/viewtopic.php?t=1191">View Comments</a></b></p>
+            <p><b><a href="https://forum.vcmi.eu/t/news-from-september-2017/4292">View Comments</a></b></p>
         
         
     </div>
@@ -306,8 +308,8 @@
 
         
 
-        <a href="https://vcmi.eu/news/vcmi-0.99-release/" class="image featured">
-            <img src="/img/2016/11/placeholder.jpg" alt="" />
+        <a href="https://vcmi.eu/news/news-from-september-2017/" class="image featured">
+            <img src="/img/2017/09/vcmionmac.jpg" alt="" />
         </a>
     
 
@@ -315,53 +317,27 @@
     <div id="content">
         
 
-<h2 id="we-re-back-with-new-major-release">We&rsquo;re back with new major release!</h2>
+<h2 id="new-website-forum-and-more">New website, forum and more</h2>
 
-<p>A lot of work has been done to ensure game stability. A number of &ldquo;impossible&rdquo; crash bugs were tracked down and fixed. This opens up chance for better multiplayer support in the future.
-RMG has undergone huge improvement, it is now not only closely resembling OH3, but also works much faster. Bonus is about 150 random map templates ported from original game and fan favourites.
-Pretty much every aspect has been improved. Pay close attention to spells and cheat codes. Flying spells and artifacts have been restored as well as ability icons in Creature Window. Over 1400 commits were done since previous release 0.98, which means something.</p>
+<p>Project now have modern static website using HUGO as generator. Everybody are welcome to contribute <a href="https://github.com/vcmi/VCMI.eu">on GitHub</a>. There also links to all of our social networks so check them and follow if you want to be notified once next stable version is released.</p>
 
-<p>Since 0.98f <a href="http://bugs.vcmi.eu/changelog_page.php?version_id=87">over 100 bugs</a> have been fixed. Since 0.98 it&rsquo;s difficult to count. For the first time in history more bugs are being fixed than reported ;)</p>
+<p>Thanks to DigitalOcean for providing us with servers our forums has moved from phpBB2 to Discourse. It&rsquo;s modern forum software that provide many useful features and looks much better on mobile devices. Once you registered on forum you can login on Wiki and Bug tracker with single click.</p>
 
-<h2 id="changelog">Changelog:</h2>
+<h2 id="macos-support-is-restored">macOS support is restored</h2>
 
-<pre><code>GENERAL:
-* New Bonus NO_TERRAIN_PENALTY
-* Nomads will remove Sand movement penalty from army
-* Flying and water walking is now supported in pathfinder
-* New artifacts supported
-- Angel Wings
-- Boots of Levitation
-* Implemented rumors in tavern window
-* New cheat codes:
-- vcmiglaurung - gives 5000 crystal dragons into each slot
-- vcmiungoliant - conceal fog of war for current player
-* New console commands:
-- gosolo - AI take control over human players and vice versa
-- controlai - give control of one or all AIs to player
-- set hideSystemMessages on/off - supress server messages in chat
+<p>After several years we started shipping working builds for Mac again. All you need to do is download DMG and copy original game data to specified directory. Click on the download icon for download links and instructions.</p>
 
-BATTLES:
-* Drawbridge mechanics implemented (animation still missing)
-* Merging of town and visiting hero armies on siege implemented
-* Hero info tooltip for skills and mana implemented
+<h2 id="newer-android-builds-are-available">Newer Android builds are available</h2>
 
-ADVETURE AI:
-* Fixed AI trying to go through underground rock
-* Fixed several cases causing AI wandering aimlessly
-* AI can again pick best artifacts and exchange artifacts between heroes
-* AI heroes with patrol enabled won't leave patrol area anymore
+<p>While Android support is not yet fully integrated into our continuous integration newer APK for VCMI are available for download. Builds still lagging behind latest version, but they in much better shape compared to older 0.97 version available on Google Play.</p>
 
-RANDOM MAP GENERATOR:
-* Changed fractalization algorithm so it can create cycles
-* Zones will not have straight paths anymore, they are totally random
-* Generated zones will have different size depending on template setting
-* Added Thieves Guild random object (1 per zone)
-* Added Seer Huts with quests that match OH3
-* RMG will guarantee at least 100 pairs of Monoliths are available even if there are not enough different defs
-</code></pre>
+<h2 id="development-on-windows-become-much-easier">Development on Windows become much easier</h2>
 
-<p>Also welcome our latest contributors Dydzio and Chocimier.</p>
+<p>If you ever had problems with building VCMI on Windows now it&rsquo;s a good time to give it a try. Wiki now has <a href="https://wiki.vcmi.eu/How_to_build_VCMI_(Windows/Vcpkg)">instruction</a> on setting build environment on Windows and there is dependency package tested by continuous integration. Everything working out of the box and can be setup in minutes. We using Microsoft&rsquo;s Vcpkg to build dependencies and our CMake configuration is updated to generate nice-looking projects for Visual Studio.</p>
+
+<h2 id="there-are-linux-and-macos-improvements-too">There are Linux and macOS improvements too</h2>
+
+<p>Now VCMI will always run properly from build output directory and development version won&rsquo;t be affected by another version of VCMI installed system wide.</p>
 
     </div>
 
@@ -370,43 +346,43 @@ RANDOM MAP GENERATOR:
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&text=VCMI%200.99%20released&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&text=News%20from%20September%202017&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&title=VCMI%200.99%20released" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&title=News%20from%20September%202017" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&title=VCMI%200.99%20released" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&title=News%20from%20September%202017" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&title=VCMI%200.99%20released" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&title=News%20from%20September%202017" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -435,9 +411,9 @@ RANDOM MAP GENERATOR:
 
     
     
-        <li><a href='/categories/releases'>Releases</a></li>
+        <li><a href='/categories/news'>News</a></li>
     
-        <li><a href='/categories/stable'>Stable</a></li>
+        <li><a href='/categories/infrastructure'>Infrastructure</a></li>
     
 </ul>
 
@@ -445,8 +421,8 @@ RANDOM MAP GENERATOR:
 </article>
 <ul class="actions pagination">
     
-        <li><a href="https://vcmi.eu/news/vcmi-0.98-release/"
-                class="button big previous">VCMI 0.98 released</a></li>
+        <li><a href="https://vcmi.eu/news/vcmi-0.99-release/"
+                class="button big previous">VCMI 0.99 released</a></li>
     
 
     
@@ -465,43 +441,43 @@ RANDOM MAP GENERATOR:
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&text=VCMI%200.99%20released&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&text=News%20from%20September%202017&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&title=VCMI%200.99%20released" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&title=News%20from%20September%202017" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&title=VCMI%200.99%20released" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&title=News%20from%20September%202017" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f&title=VCMI%200.99%20released" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f&title=News%20from%20September%202017" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fvcmi.eu%2fnews%2fvcmi-0.99-release%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fvcmi.eu%2fnews%2fnews-from-september-2017%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
