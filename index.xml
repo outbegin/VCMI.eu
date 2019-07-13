@@ -50,5 +50,14 @@ Finally all the spells in game are supported. New additions include missing adve
  Complete gameplay mechanics Almost all objects, abilities, spells and other content Basic battle AI and adventure AI Many GUI improvements: high resolutions, stack queue, creature window Advanced and easy mod support - add new towns, creatures, heroes, artifacts and spells without limits or conflicts Launcher for easy configuration - download mods from our server and install them immediatelly!</description>
     </item>
     
+    <item>
+      <title>Frequently Asked Questions (FAQ)</title>
+      <link>https://vcmi.eu/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vcmi.eu/faq/</guid>
+      <description>Again, what is VCMI?   In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets and make new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We also plan supporting WoG mod features, but for now there are areas in VCMI that need more attention than WoG features.</description>
+    </item>
+    
   </channel>
 </rss>
